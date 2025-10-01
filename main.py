@@ -1,9 +1,3 @@
-"""
-Script de controle interativo para o sensor de cor TCS34725 via I2C no Raspberry Pi.
-Permite leitura única, leitura contínua e salvamento dos dados em arquivo, com validação de erro e tratamento de entradas.
-Agora inclui um canal extra 'infrared' (simulado).
-"""
-
 import smbus
 import time
 import os
@@ -11,9 +5,9 @@ from datetime import datetime
 
 # Endereço I2C do TCS34725
 TCS34725_ADDR = 0x29
-I2C_BUS = 1  # Ajuste conforme sua placa
+I2C_BUS = 2 
 
-# Caminho do arquivo de log (pode ser configurado por variável de ambiente)
+# Caminho do arquivo de log 
 CAMINHO_ARQUIVO = os.getenv("CAMINHO_ARQUIVO", "/home/pi/cor_log.txt")
 
 # Registradores do TCS34725
@@ -52,7 +46,7 @@ def ler_cor():
         red   = (data[3] << 8) | data[2]
         green = (data[5] << 8) | data[4]
         blue  = (data[7] << 8) | data[6]
-        # Canal extra: infravermelho estimado (clear - (R+G+B))
+        
         infrared = max(0, clear - (red + green + blue))
         return clear, red, green, blue, infrared
     except Exception as e:
