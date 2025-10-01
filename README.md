@@ -8,6 +8,8 @@ Este projeto é um **datalogger multifuncional** desenvolvido para a plataforma 
 
 - **🔧 Labrador 32**  
   Microcontrolador utilizado como base do sistema de aquisição, integração com sensores e armazenamento dos dados.
+  
+  ![Placa Labrador 32](./images/caninos.png)
 
 - **💻 Thonny IDE**  
   Ambiente de desenvolvimento utilizado para programação, upload e depuração do código Python na Labrador 32.
@@ -17,6 +19,8 @@ Este projeto é um **datalogger multifuncional** desenvolvido para a plataforma 
 
 - **🎨 Sensor de Cor TCS34725**  
   Sensor óptico digital via I2C, utilizado para monitoramento de intensidade de luz nas componentes Clear, Red, Green, Blue e cálculo de Infrared.
+  
+  ![Sensor TCS34725](./images/TCS34725.png)
 
 - **💾 Cartão microSD**  
   Meio de armazenamento utilizado para salvar os registros das leituras em formato `.txt`.
@@ -58,16 +62,6 @@ Este projeto é um **datalogger multifuncional** desenvolvido para a plataforma 
 │   ├── caninos.png       # Imagem da placa Labrador 32
 │   └── TCS34725.png      # Imagem do sensor de cor TCS34725
 ```
-
----
-
-## 🖼️ Imagens
-
-### 🐕‍🦺 Placa Labrador 32
-![Placa Labrador 32](./images/caninos.png)
-
-### 🎨 Sensor de Cor TCS34725
-![Sensor TCS34725](./images/TCS34725.png)
 
 ---
 
