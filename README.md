@@ -56,7 +56,7 @@ Este projeto é um **datalogger multifuncional** desenvolvido para a plataforma 
 ├── log.txt          # Arquivo de registros das leituras (gerado pelo sistema)
 ├── images/
 │   ├── caninos.png       # Imagem da placa Labrador 32
-│   └── TCS34725.jpg      # Imagem do sensor de cor TCS34725
+│   └── TCS34725.png      # Imagem do sensor de cor TCS34725
 ```
 
 ---
@@ -67,7 +67,7 @@ Este projeto é um **datalogger multifuncional** desenvolvido para a plataforma 
 ![Placa Labrador 32](./images/caninos.png)
 
 ### 🎨 Sensor de Cor TCS34725
-![Sensor TCS34725](./images/TCS34725.jpg)
+![Sensor TCS34725](./images/TCS34725.png)
 
 ---
 
