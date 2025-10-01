@@ -27,6 +27,13 @@ Este projeto é um **datalogger multifuncional** desenvolvido para a plataforma 
 
 ---
 
+## Demonstração
+
+### 🖥️ Interface de Desenvolvimento
+![Interface Thonny](./images/tela.png)
+
+---
+
 ## ⚡ Funcionalidades
 
 - **📊 Coleta de Dados**  
