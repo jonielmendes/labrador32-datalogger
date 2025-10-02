@@ -50,7 +50,7 @@ Este projeto é um **datalogger multifuncional** desenvolvido para a plataforma 
 
 ---
 
-## 📝 Exemplo de Registro (`log.txt`)
+## 📝 Exemplo de Registro (`cor.txt`)
 
 ```
 [2025-10-01 13:21:29] Clear:2948 Red:1541 Green:1388 Blue:1334 Infrared:0
@@ -64,7 +64,7 @@ Este projeto é um **datalogger multifuncional** desenvolvido para a plataforma 
 ```
 ├── README.md
 ├── main.py          # Código principal do datalogger
-├── log.txt          # Arquivo de registros das leituras (gerado pelo sistema)
+├── cor.txt          # Arquivo de registros das leituras (gerado pelo sistema)
 ├── images/
 │   ├── caninos.png       # Imagem da placa Labrador 32
 │   └── TCS34725.png      # Imagem do sensor de cor TCS34725
@@ -78,7 +78,7 @@ Este projeto é um **datalogger multifuncional** desenvolvido para a plataforma 
 2. **💾 Insira** o cartão microSD na placa
 3. **📤 Faça upload** do arquivo `main.py` usando o Thonny IDE
 4. **▶️ Execute** o sistema
-5. **📊 Os dados** serão registrados no arquivo `log.txt` no cartão microSD
+5. **📊 Os dados** serão registrados no arquivo `cor.txt` no cartão microSD
 
 ---
 
